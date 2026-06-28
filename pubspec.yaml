@@ -1,0 +1,63 @@
+name: weather_dashboard
+description: "A beautiful weather dashboard application that fetches real-time weather data from OpenWeatherMap API."
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+  flutter: '>=3.16.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+
+  # HTTP & API
+  http: ^1.1.0
+  
+  # State Management
+  provider: ^6.1.1
+  
+  # UI & Animations
+  google_fonts: ^6.1.0
+  lottie: ^2.7.0
+  shimmer: ^3.0.0
+  animated_text_kit: ^4.2.2
+  
+  # Location Services
+  geolocator: ^9.0.2
+  geocoding: ^2.1.1
+  
+  # Storage & Persistence
+  shared_preferences: ^2.2.2
+  
+  # Utilities
+  intl: ^0.18.1
+  connectivity_plus: ^5.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.1
+
+flutter:
+  uses-material-design: true
+  
+  assets:
+    - assets/images/
+    - assets/lottie/
+    - assets/weather_icons/
+  
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 700
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
