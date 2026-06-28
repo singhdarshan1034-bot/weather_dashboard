@@ -206,7 +206,7 @@ Extend `WeatherData` model in `weather_model.dart` to include additional fields 
 - Wait for GPS to acquire position
 
 ### API calls not working
-- Replace `YOUR_OPENWEATHER_API_KEY` with your actual key
+- Replace `cc876d9c61a6b8f6c8585487efc80164` with your actual key
 - Verify your API key has the correct permissions
 - Check the OpenWeatherMap API status page
 
